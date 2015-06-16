@@ -14,7 +14,11 @@ check" devised by [Glen Maddern](https://twitter.com/glenmaddern).
 
 ## Supported Environments
 
-__coming soon__
+I've manually tested in a range of environments:
+
+- `true`: Chrome (43)
+
+- `false`: Node.js (0.12), Firefox (38)
 
 
 ## Usage
