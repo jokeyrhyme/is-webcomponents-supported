@@ -1,0 +1,30 @@
+{
+  "name": "is-webcomponents-supported",
+  "version": "1.0.0",
+  "description": "does this JavaScript environment support WebComponents?",
+  "repository": "https://github.com/jokeyrhyme/is-webcomponents-supported.git",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -e ./index.js -s isWebComponentsSupported > dist/index.js",
+    "pretest": "npm run build",
+    "test": "eslint . && istanbul cover ./tests/"
+  },
+  "keywords": [
+    "detect",
+    "webcomponents"
+  ],
+  "author": "Ron Waldon (https://github.com/jokeyrhyme)",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "browserify": "^10.2",
+    "eslint": "^0.23",
+    "eslint-config-standard": "^3.2",
+    "istanbul": "^0.3",
+    "tape": "^4.0"
+  },
+  "files": [
+    "dist/index.js",
+    "index.js",
+    "README.md"
+  ]
+}
