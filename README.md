@@ -1,8 +1,6 @@
-# is-webcomponents-supported.js
+# is-webcomponents-supported.js [![npm module](https://img.shields.io/npm/v/is-webcomponents-supported.svg)](https://www.npmjs.com/package/is-webcomponents-supported) [![Travis CI Status](https://travis-ci.org/jokeyrhyme/is-webcomponents-supported.svg?branch=master)](https://travis-ci.org/jokeyrhyme/is-webcomponents-supported)
 
 does this JavaScript environment support WebComponents?
-
-[![npm module](https://img.shields.io/npm/v/is-webcomponents-supported.svg)](https://www.npmjs.com/package/is-webcomponents-supported)
 
 
 ## What is this?
